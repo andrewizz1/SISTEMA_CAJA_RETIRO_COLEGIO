@@ -137,6 +137,7 @@ public class ventana1 extends JFrame implements ActionListener {
 			contentPane.add(txtvuelto);
 		}
 		 sistema = new sistemacaja();
+		
 		txtS.append("\nMonto inicial: "+sistema.getMontoInicial() + " soles\n");
 	}
 	public void actionPerformed(ActionEvent e) {

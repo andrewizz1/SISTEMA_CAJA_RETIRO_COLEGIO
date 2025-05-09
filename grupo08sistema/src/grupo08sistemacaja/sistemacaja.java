@@ -32,10 +32,10 @@ public double Montoactual() {
 	
 	return montoInicial+montoagregar;
 }
-public boolean agregarmonto(double monto) { //100
-	double montototal = Montoactual()+ monto;
+public boolean agregarmonto(double valorproducto) { //100
+	double montototal = Montoactual()+ valorproducto;
 	if(montototal <=montolimite) {
-		montoagregar+=monto;
+		montoagregar+=valorproducto;
 		return true;
 	}else {
 		return false;

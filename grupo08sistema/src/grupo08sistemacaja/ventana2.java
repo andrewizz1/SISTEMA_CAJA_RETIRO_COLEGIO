@@ -92,12 +92,14 @@ public class ventana2 extends JFrame implements ActionListener {
 		}
 		{
 			txtCodAuto = new JTextField();
+			txtCodAuto.setFont(new Font("Roboto Medium", Font.PLAIN, 15));
 			txtCodAuto.setBounds(158, 44, 107, 25);
 			contentPane.add(txtCodAuto);
 			txtCodAuto.setColumns(10);
 		}
 		{
 			txtIDtrabajador = new JTextField();
+			txtIDtrabajador.setFont(new Font("Roboto Medium", Font.PLAIN, 15));
 			txtIDtrabajador.setColumns(10);
 			txtIDtrabajador.setBounds(158, 79, 107, 25);
 			contentPane.add(txtIDtrabajador);

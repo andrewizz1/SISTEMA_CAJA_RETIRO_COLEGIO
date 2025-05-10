@@ -53,7 +53,7 @@ public class ventana1 extends JFrame implements ActionListener {
 	/**
 	 * Create the frame.
 	 */
-	//ventana2 v2 = new ventana2();
+	
 	
 	
 	public ventana1() {
@@ -119,6 +119,7 @@ public class ventana1 extends JFrame implements ActionListener {
 		}
 		{
 			txtvalorprod = new JTextField();
+			txtvalorprod.setFont(new Font("Roboto Medium", Font.PLAIN, 15));
 			txtvalorprod.setColumns(10);
 			txtvalorprod.setBounds(173, 131, 101, 20);
 			contentPane.add(txtvalorprod);
@@ -131,6 +132,7 @@ public class ventana1 extends JFrame implements ActionListener {
 		}
 		{
 			txtvuelto = new JTextField();
+			txtvuelto.setFont(new Font("Roboto Medium", Font.PLAIN, 15));
 			txtvuelto.setEditable(false);
 			txtvuelto.setColumns(10);
 			txtvuelto.setBounds(173, 174, 101, 20);
@@ -155,25 +157,7 @@ public class ventana1 extends JFrame implements ActionListener {
 		this.setVisible(false);
 	}
 	protected void do_btndepositar_actionPerformed(ActionEvent e) {
-		//try {
-		//	 double monto = Double.parseDouble(txtMonto.getText());
-		//	 if (monto <= 0) {
-	    //            JOptionPane.showMessageDialog(this, "Ingrese un monto mayor a 0");
-	    //        } else {
-	     //       	if(sistema.agregarmonto(monto)) {
-	            		
-	      //      		txtS.setText("");  
-	     //               txtS.append("Monto inicial: " + sistema.getMontoInicial()+ " soles\n");
-	      //              txtS.append("Monto actual: " + sistema.Montoactual() + " soles\n");
-	      //      	}else {
-	      //      		JOptionPane.showMessageDialog(this, "No se puede agregar monto. El límite es de 1000 soles.");
-	     //       	}
-	     //       	
-	     //       }
-		//	
-	//	}catch (NumberFormatException ex) {
-	//		JOptionPane.showMessageDialog(this, "No ingresar letras ni caracteres especiales. Solo montos reales positivos.");
-	//	}
+		
 		realizarDeposito();
 			
 		

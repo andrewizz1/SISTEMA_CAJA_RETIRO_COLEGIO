@@ -184,7 +184,7 @@ public class ventana2 extends JFrame implements ActionListener {
 			v1.actualizartextocaja();
 		    
 		}else {
-			txtSRetiro.setText("No se puede autorizar el retiro. El monto es insuficiente.");
+			txtSRetiro.setText("No se puede autorizar el retiro."+"\nEl monto es insuficiente.");
 			
 		}
 	}
